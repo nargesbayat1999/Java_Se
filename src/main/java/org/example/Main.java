@@ -1,7 +1,5 @@
 package org.example;
 
-import jdk.jshell.execution.Util;
-
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 
@@ -9,13 +7,13 @@ import java.nio.charset.StandardCharsets;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String Txt=  "Narges home star isc energency   ";
+        String txt=  "Narges home star isc energency   ";
 
-        String TXt2=  "Narges home star Isc Energency   ";
+        String txt2=  "Narges home star Isc Energency   ";
 
 
-       util.search(TXt2);
-       util.Stringequals(TXt2,Txt);
-        util.case_methode(Txt);
+       Util.search(txt2);
+       Util.stringequals(txt2,txt);
+        Util.caseMethode(txt);
     }
 }
