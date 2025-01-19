@@ -1,4 +1,4 @@
-package org.example.eroor_handeling;
+package org.example.errorHandling;
 
 public class  AgeNotValidException extends Exception  {
 
