@@ -1,7 +1,4 @@
-package org.example;
-
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.StandardCharsets;
+package org.bayat.javase.textandcoreutilities;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

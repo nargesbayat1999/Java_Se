@@ -1,4 +1,4 @@
-package org.example;
+package org.bayat.javase.textandcoreutilities;
 
 public class Util {
     public static String caseMethode(String text) {

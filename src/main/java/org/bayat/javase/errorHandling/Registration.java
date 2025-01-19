@@ -1,8 +1,10 @@
-package org.example.errorHandling;
+package org.bayat.javase.errorHandling;
 
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+//Test Class Registration
 
 public class Registration {
 
@@ -11,17 +13,10 @@ public class Registration {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter your age: ");
             int age = sc.nextInt();
-
-            if (age == 0)
-                throw new IllegalAccessException("Age is Zero!");
-
             if (age < 18)
-                throw new AgeNotValidException("سن کوچگ تر از 18");
-
-        } catch (NullPointerException | IllegalAccessException e) {
-            System.out.println(e.getMessage());
+                throw new AgeNotValidException(age + "!" + "\n ثبتنام افراد زیر 18 سال معتبر نیست");
         } catch (InputMismatchException e) {
-            System.out.println("ورودی معتبر نیست");
+            System.out.println("ورودی معتبر نیست لطفا عدد سن وارد کنید");
         } catch (AgeNotValidException e) {
             System.out.println(e.getMessage());
         } finally {
