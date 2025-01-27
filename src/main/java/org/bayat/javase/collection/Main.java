@@ -12,8 +12,7 @@ public class Main {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("عناصر مورد نظر وارد کن و با ','جدا کن");
             String input = scanner.nextLine();
-            String[] inputArray = input.split(",");
-            for (String s : inputArray) {
+            for (String s : input.split(",")) {
                 myCollection.add(s);
             }
             for (String s : myCollection) {
@@ -28,6 +27,7 @@ public class Main {
 
 
         }
+
 
 
 

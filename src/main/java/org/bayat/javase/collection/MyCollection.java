@@ -10,4 +10,5 @@ import java.util.ArrayList;
  */
 
 public class MyCollection <T> extends ArrayList<T> {
+
 }

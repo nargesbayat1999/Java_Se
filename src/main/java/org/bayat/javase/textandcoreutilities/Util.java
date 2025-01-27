@@ -32,6 +32,7 @@ public class Util {
         if (text2.contains("emergency"))
             System.out.println("yes energency");
 
+        text2 = "ok";
         return text2;
     }
 
